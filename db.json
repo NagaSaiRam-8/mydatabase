@@ -1,8 +1,1903 @@
 {
-  "users":[
+  "login": [
     {
-      "id":1,
-      "email":"superAdmin@gmail.com",
-      "password": "Password@345"
-  }]
+      "name": "Shilratna Chawhan",
+      "email": "shilratna516@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "Ravi",
+      "email": "ravi@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "yuganta",
+      "email": "yugantaparida123@gmail.com",
+      "password": "123",
+      "id": 3
+    }
+  ],
+  "Dashboard-Cards": [
+    {
+      "id": 1,
+      "name": "Candidates",
+      "score": 120,
+      "percent": 1.52,
+      "routerLink": "/account/Dashboard"
+    },
+    {
+      "id": 2,
+      "name": "Users",
+      "score": 120,
+      "percent": 1.52,
+      "routerLink": "/user/user-dashboard"
+    },
+    {
+      "id": 3,
+      "name": "Clients",
+      "score": 120,
+      "percent": 1.52,
+      "routerLink": "/client/client-home"
+    },
+    {
+      "id": 4,
+      "name": "Active Jobs",
+      "score": 120,
+      "percent": 1.52,
+      "routerLink": "/account/Dashboard"
+    },
+    {
+      "id": 5,
+      "name": "Subscription",
+      "score": 120,
+      "percent": 1.52,
+      "routerLink": "/subscription/subscription-dashboard"
+    }
+  ],
+  "User-Distribution": [
+    {
+      "id": 1,
+      "location": "Mumbai",
+      "Recruiter": 15,
+      "client": 5,
+      "CSM": 4
+    },
+    {
+      "id": 2,
+      "location": "Pune",
+      "Recruiter": 15,
+      "client": 5,
+      "CSM": 4
+    },
+    {
+      "id": 3,
+      "location": "Bengaluru",
+      "Recruiter": 15,
+      "client": 5,
+      "CSM": 4
+    },
+    {
+      "id": 4,
+      "location": "Hyderabad",
+      "Recruiter": 15,
+      "client": 5,
+      "CSM": 4
+    }
+  ],
+  "Master-data": [
+    {
+      "id": 1,
+      "count": 70,
+      "query": "Total Data Set"
+    },
+    {
+      "id": 2,
+      "count": 1290,
+      "query": "Total Data Fields"
+    }
+  ],
+  "Data-Sets": [
+    {
+      "id": 1,
+      "Skills": "Location",
+      "update": "Date:23 Feb 2023",
+      "count": 45
+    },
+    {
+      "id": 2,
+      "Skills": "Lob Roles",
+      "update": "Date:23 Feb 2023",
+      "count": 78
+    },
+    {
+      "id": 3,
+      "Skills": "Education",
+      "update": "Date:23 Feb 2023",
+      "count": 16
+    },
+    {
+      "id": 4,
+      "Skills": "Specialisation",
+      "update": "Date:23 Feb 2023",
+      "count": 16
+    }
+  ],
+  "Data-Fields": [
+    {
+      "Title": "Telivision",
+      "Code": 11,
+      "Description": "For Giving Job Oportunities",
+      "SourceType": "Manual",
+      "SourceName": "Naukari",
+      "id": 1
+    }
+  ],
+  "New-Master-Data": [
+    {
+      "Title": "Presentation",
+      "title": "Presentation",
+      "Code": 1,
+      "Description": "This is For skills",
+      "SourceType": "Manual",
+      "SourceName": "Manual",
+      "id": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "TITLE": "Java",
+      "CREATEDBY": "Rakshan",
+      "CREATEDDATE": "23 dec 2022",
+      "LASMODIFIEDBY": "Rahul",
+      "LASTMODIFIEDDATE": "23 dec 2022",
+      "USEDBY": "USED BY",
+      "Status": "Active"
+    }
+  ],
+  "User-Management": [
+    {
+      "id": 1,
+      "hike": "21K",
+      "score": 120,
+      "percent": 1.52,
+      "name": "Recruiters"
+    },
+    {
+      "id": 2,
+      "hike": "51K",
+      "score": 120,
+      "percent": 1.52,
+      "name": "Recruiter Managers"
+    },
+    {
+      "id": 1,
+      "hike": "11K",
+      "score": 120,
+      "percent": 1.52,
+      "name": "CSM"
+    },
+    {
+      "id": 1,
+      "hike": "201K",
+      "score": 120,
+      "percent": 1.52,
+      "name": "Account Admin"
+    }
+  ],
+  "Recent-user": [
+    {
+      "id": 1,
+      "name": "Mohit Jangra",
+      "Recruiter": "Recruiter",
+      "Client": "First Meridian",
+      "ActiveStatus": "Active 1hr ago",
+      "location": "Bengaluru, Karnataka"
+    }
+  ],
+  "Top-CSM": [
+    {
+      "id": 1,
+      "name": "Mohit Jangra",
+      "email": "mohit.jangra@gmail.com",
+      "location": "Bengaluru, Karnataka",
+      "choice": "Bengaluru",
+      "NoofClients": 28
+    }
+  ],
+  "TopRecruiterManager": [
+    {
+      "id": 1,
+      "name": "Mohit Jangra",
+      "email": "mohit.jangra@gmail.com",
+      "TeamMembers": 110,
+      "CandidatesSourced": 230,
+      "PositionsClosed": 220,
+      "StrikeRate": 95
+    }
+  ],
+  "TopRecruiter": [
+    {
+      "id": 1,
+      "name": "Mohit Jangra",
+      "email": "mohit.jangra@gmail.com",
+      "location": "Bengaluru, Karnataka",
+      "choice": "Bengaluru",
+      "JobsClosed": 1742
+    }
+  ],
+  "AddNewUser": [],
+  "ClientsManagement": [
+    {
+      "id": 1,
+      "ClientName": "Pooja",
+      "TradeName": "Bengaluru",
+      "Address": "Ward no 3 at post Jintola, Mansar Tha Ramtek",
+      "ZipCode": "441401",
+      "City": "NAGPUR",
+      "State": "Andhra Pradesh",
+      "Country": "India",
+      "Number": "09096421662",
+      "Email": "null",
+      "BusinessIndustry": "Kerala",
+      "BusinessTaxId": "955348851688",
+      "WebsiteURL": "xyz.com",
+      "BusinessType": ""
+    },
+    {
+      "ClientName": "wipro",
+      "TradeName": "Bangolore",
+      "Address": "Ward no 3 at post Jintola, Mansar Tha Ramtek",
+      "ZipCode": "441401",
+      "City": "NAGPUR",
+      "State": "Karnataka",
+      "Country": "India",
+      "Number": "09096421662",
+      "Email": "wipro@info.com",
+      "BusinessIndustry": "Andhra Pradesh",
+      "BusinessTaxId": "877867687",
+      "WebsiteURL": "wipro.com",
+      "BusinessType": "Public Corporation",
+      "id": 2
+    },
+    {
+      "ClientName": "wipro",
+      "TradeName": "Bangolore",
+      "Address": "Ward no 3 at post Jintola, Mansar Tha Ramtek",
+      "ZipCode": "441401",
+      "City": "NAGPUR",
+      "State": "Karnataka",
+      "Country": "India",
+      "Number": "09096421662",
+      "Email": "wipro@info.com",
+      "BusinessIndustry": "Andhra Pradesh",
+      "BusinessTaxId": "877867687",
+      "WebsiteURL": "wipro.com",
+      "BusinessType": "Public Corporation",
+      "id": 3
+    },
+    {
+      "ClientName": "Pratian",
+      "TradeName": "bangaluru",
+      "Address": "bengaluru",
+      "ZipCode": "560066",
+      "City": "bangaluru",
+      "State": "Karnataka",
+      "Country": "India",
+      "Number": "8308312105",
+      "Email": "sonuachalere02@gmail.com",
+      "BusinessIndustry": "Delhi",
+      "BusinessTaxId": "87676565656",
+      "WebsiteURL": "yudtqtr",
+      "BusinessType": "Public Corporation",
+      "id": 4
+    },
+    {
+      "ClientName": "Pratian",
+      "TradeName": "bangaluru",
+      "Address": "bengaluru",
+      "ZipCode": "560066",
+      "City": "bangaluru",
+      "State": "Karnataka",
+      "Country": "India",
+      "Number": "8308312105",
+      "Email": "sonuachalere02@gmail.com",
+      "BusinessIndustry": "Delhi",
+      "BusinessTaxId": "87676565656",
+      "WebsiteURL": "yudtqtr",
+      "BusinessType": "Public Corporation",
+      "id": 5
+    },
+    {
+      "ClientName": "Pratian",
+      "TradeName": "bangaluru",
+      "Address": "bengaluru",
+      "ZipCode": "560066",
+      "City": "bangaluru",
+      "State": "Karnataka",
+      "Country": "India",
+      "Number": "8308312105",
+      "Email": "sonuachalere02@gmail.com",
+      "BusinessIndustry": "Delhi",
+      "BusinessTaxId": "87676565656",
+      "WebsiteURL": "yudtqtr",
+      "BusinessType": "Public Corporation",
+      "id": 6
+    }
+  ],
+  "RoleManagement": [
+    {
+      "id": 1,
+      "RoleName": "Senior Recruiter Manager",
+      "Categories": "Active",
+      "NumberofUsers": 1,
+      "CreatedBy": "Rakshan",
+      "CreatedOn": "23 dec 2022"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "featureName": ""
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "age": 30,
+      "gender": "male",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "company": "Pratian Technologies",
+      "Designation": "Super Admin"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "age": 25,
+      "gender": "female",
+      "address": {
+        "street": "456 Oak St",
+        "city": "Othertown",
+        "state": "NY",
+        "zip": "67890"
+      },
+      "company": "Pratian Technologies",
+      "Designation": "Super Admin"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "age": 45,
+      "gender": "male",
+      "address": {
+        "street": "789 Maple Ave",
+        "city": "Somewhere",
+        "state": "TX",
+        "zip": "54321"
+      },
+      "company": "Pratian Technologies",
+      "Designation": "Super Admin"
+    },
+    {
+      "id": 4,
+      "name": "Bobby Johnson",
+      "email": "bobby.johnson@example.com",
+      "age": 45,
+      "gender": "male",
+      "address": {
+        "street": "789 Maple Ave",
+        "city": "Somewhere",
+        "state": "TX",
+        "zip": "54321"
+      },
+      "company": "Pratian Technologies",
+      "Designation": "Super Admin"
+    },
+    {
+      "id": 5,
+      "name": "doe Johnson",
+      "email": "doe.johnson@example.com",
+      "age": 45,
+      "gender": "male",
+      "address": {
+        "street": "789 Maple Ave",
+        "city": "Somewhere",
+        "state": "TX",
+        "zip": "54321"
+      },
+      "company": "Pratian Technologies",
+      "Designation": "Super Admin"
+    }
+  ],
+  "Clients": [
+    {
+      "id": 1,
+      "name": "Infosys",
+      "address": {
+        "street": "123 Main St",
+        "city": "Pune",
+        "state": "Maharastra",
+        "zip": "12345"
+      },
+      "Industry": "IT & Consultancy",
+      "status": "Active",
+      "jobposted": "20k"
+    },
+    {
+      "id": 2,
+      "name": "First meridian",
+      "address": {
+        "street": "123 Main St",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "zip": "12345"
+      },
+      "Industry": "IT & Consultancy",
+      "status": "Active",
+      "jobposted": "22k"
+    },
+    {
+      "id": 3,
+      "name": "Capgemini",
+      "address": {
+        "street": "123 Main St",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "zip": "12345"
+      },
+      "Industry": "IT & Consultancy",
+      "status": "Active",
+      "jobposted": "22k"
+    },
+    {
+      "id": 4,
+      "name": "Wipro",
+      "address": {
+        "street": "123 Main St",
+        "city": "Pune",
+        "state": "Maharastra",
+        "zip": "12345"
+      },
+      "Industry": "IT & Consultancy",
+      "status": "Active",
+      "jobposted": "1k"
+    },
+    {
+      "id": 5,
+      "name": "Pratian Technologies",
+      "address": {
+        "street": "123 Main St",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "zip": "12345"
+      },
+<<<<<<< HEAD
+      "Industry": "IT & Consultancy",
+      "status": "Active",
+      "jobposted": "2k"
+    }
+  ],
+  "Skills": [
+    {
+      "name": "Data analysis",
+      "weight": 5
+    },
+    {
+      "name": "public speaking",
+      "weight": 10
+    },
+    {
+      "name": "Java programming",
+      "weight": 15
+    },
+    {
+      "name": "Storytelling",
+      "weight": 20
+    },
+    {
+      "name": "Web analytics",
+      "weight": 25
+    },
+    {
+      "name": "Database management",
+      "weight": 30
+    },
+    {
+      "name": "Discussion",
+      "weight": 35
+    },
+    {
+      "name": "Web ",
+      "weight": 40
+    },
+    {
+      "name": "Active Listening",
+      "weight": 45
+    },
+    {
+      "name": "WordPress",
+      "weight": 50
+    },
+    {
+      "name": "Java",
+      "weight": 55
+    },
+    {
+      "name": "Presentation",
+      "weight": 60
+    },
+    {
+      "name": "B2B Marketing",
+      "weight": 65
+    },
+    {
+      "name": "Teamwork",
+      "weight": 70
+    },
+    {
+      "name": "HTML & CSS",
+      "weight": 75
+    },
+    {
+      "name": "Communication",
+      "weight": 80
+    },
+    {
+      "name": "Networking",
+      "weight": 85
+    },
+    {
+      "name": "Troubleshooting",
+      "weight": 90
+    },
+    {
+      "name": "Equipment installation",
+      "weight": 95
+    },
+    {
+      "name": "mobile marketing",
+      "weight": 100
+    },
+    {
+      "name": "Copywriting",
+      "weight": 5
+    },
+    {
+      "name": "Social media",
+      "weight": 10
+    },
+    {
+      "name": "Negotatoin",
+      "weight": 15
+    },
+    {
+      "name": "Empathy",
+      "weight": 20
+    },
+    {
+      "name": "Openess",
+      "weight": 25
+    }
+  ],
+  "AddUser": [
+    {
+      "name": "ravi",
+      "Lastname": "rajput",
+      "address": "delhi",
+      "landmark": "delhi",
+      "county": "india",
+      "state": "uttarpradesh",
+      "townVillage": "noida",
+      "pincode": "1234567",
+      "AccountName": "ravi",
+      "role": "developer",
+      "emailid": "ravi@gmail.com",
+      "mobileno": "123456789",
+      "password": "1234567890",
+      "repassword": "1234567890",
+      "id": 1
+    },
+    {
+      "name": "Ravi Rajput",
+      "Lastname": "Ravi",
+      "address": "Noida",
+      "landmark": "delhi",
+      "county": "India",
+      "state": "Uttarpardesh",
+      "townVillage": "delhi",
+      "pincode": "123456",
+      "AccountName": "Ravi",
+      "role": "Software Engineer",
+      "emailid": "ravi@gmail.com",
+      "mobileno": "123456789",
+      "password": "1234567890",
+      "repassword": "1234567890",
+      "id": 4
+    },
+    {
+      "name": "Ravi Rajput",
+      "Lastname": "Ravi",
+      "address": "Noida",
+      "landmark": "delhi",
+      "county": "India",
+      "state": "Uttarpardesh",
+      "townVillage": "delhi",
+      "pincode": "123456",
+      "AccountName": "Ravi",
+      "role": "Software Engineer",
+      "emailid": "ravi@gmail.com",
+      "mobileno": "123456789",
+      "password": "1234567890",
+      "repassword": "1234567890",
+      "id": 5
+    },
+    {
+      "name": "Ravi Rajput",
+      "Lastname": "Ravi",
+      "address": "Noida",
+      "landmark": "delhi",
+      "county": "India",
+      "state": "Uttarpardesh",
+      "townVillage": "delhi",
+      "pincode": "123456",
+      "AccountName": "Ravi",
+      "role": "Software Engineer",
+      "emailid": "ravi@gmail.com",
+      "mobileno": "123456789",
+      "password": "1234567890",
+      "repassword": "1234567890",
+      "id": 6
+    },
+    {
+      "name": "Ravi Rajput",
+      "Lastname": "Ravi",
+      "address": "Noida",
+      "landmark": "delhi",
+      "county": "India",
+      "state": "Uttarpardesh",
+      "townVillage": "delhi",
+      "pincode": "123456",
+      "AccountName": "Ravi",
+      "role": "Software Engineer",
+      "emailid": "ravi@gmail.com",
+      "mobileno": "123456789",
+      "password": "1234567890",
+      "repassword": "1234567890",
+      "id": 7
+    },
+    {
+      "name": "Ravi Rajput",
+      "Lastname": "Ravi",
+      "address": "Noida",
+      "landmark": "delhi",
+      "county": "India",
+      "state": "Uttarpardesh",
+      "townVillage": "delhi",
+      "pincode": "123456",
+      "AccountName": "Ravi",
+      "role": "Software Engineer",
+      "emailid": "ravi@gmail.com",
+      "mobileno": "123456789",
+      "password": "1234567890",
+      "repassword": "1234567890",
+      "id": 8
+    },
+    {
+      "name": "Ravi Rajput",
+      "Lastname": "Ravi",
+      "address": "Noida",
+      "landmark": "delhi",
+      "county": "India",
+      "state": "Uttarpardesh",
+      "townVillage": "delhi",
+      "pincode": "123456",
+      "AccountName": "Ravi",
+      "role": "Software Engineer",
+      "emailid": "ravi@gmail.com",
+      "mobileno": "123456789",
+      "password": "1234567890",
+      "repassword": "1234567890",
+      "id": 9
+    },
+    {
+      "name": "Ravi Rajput",
+      "Lastname": "Ravi",
+      "address": "Noida",
+      "landmark": "delhi",
+      "county": "India",
+      "state": "Uttarpardesh",
+      "townVillage": "delhi",
+      "pincode": "123456",
+      "AccountName": "Ravi",
+      "role": "Software Engineer",
+      "emailid": "ravi@gmail.com",
+      "mobileno": "123456789",
+      "password": "1234567890",
+      "repassword": "1234567890",
+      "id": 10
+    },
+    {
+      "name": "Ravi Rajput",
+      "Lastname": "Ravi",
+      "address": "Noida",
+      "landmark": "delhi",
+      "county": "India",
+      "state": "Uttarpardesh",
+      "townVillage": "delhi",
+      "pincode": "123456",
+      "AccountName": "Ravi",
+      "role": "Software Engineer",
+      "emailid": "ravi@gmail.com",
+      "mobileno": "123456789",
+      "password": "1234567890",
+      "repassword": "1234567890",
+      "id": 11
+    },
+    {
+      "name": "Ravi Rajput",
+      "Lastname": "Ravi",
+      "address": "Noida",
+      "landmark": "delhi",
+      "county": "India",
+      "state": "Uttarpardesh",
+      "townVillage": "delhi",
+      "pincode": "123456",
+      "AccountName": "Ravi",
+      "role": "Software Engineer",
+      "emailid": "ravi@gmail.com",
+      "mobileno": "123456789",
+      "password": "1234567890",
+      "repassword": "1234567890",
+      "id": 12
+    },
+    {
+      "name": "Ravi Rajput",
+      "Lastname": "Ravi",
+      "address": "Noida",
+      "landmark": "delhi",
+      "county": "India",
+      "state": "Uttarpardesh",
+      "townVillage": "delhi",
+      "pincode": "123456",
+      "AccountName": "Ravi",
+      "role": "Software Engineer",
+      "emailid": "ravi@gmail.com",
+      "mobileno": "123456789",
+      "password": "1234567890",
+      "repassword": "1234567890",
+      "id": 13
+    },
+    {
+      "name": "Ravi Rajput",
+      "Lastname": "Ravi",
+      "address": "Noida",
+      "landmark": "delhi",
+      "county": "India",
+      "state": "Uttarpardesh",
+      "townVillage": "delhi",
+      "pincode": "123456",
+      "AccountName": "Ravi",
+      "role": "Software Engineer",
+      "emailid": "ravi@gmail.com",
+      "mobileno": "123456789",
+      "password": "1234567890",
+      "repassword": "1234567890",
+      "id": 14
+    }
+  ]
 }
+=======
+      {
+        "name":"Openess",
+        "weight":25
+      }
+
+    ],
+
+    "AddUser": [
+      {
+        "name": "ravi",
+        "Lastname": "rajput",
+        "address": "delhi",
+        "landmark": "delhi",
+        "county": "india",
+        "state": "uttarpradesh",
+        "townVillage": "noida",
+        "pincode": "1234567",
+        "AccountName": "ravi",
+        "role": "developer",
+        "emailid": "ravi@gmail.com",
+        "mobileno": "123456789",
+        "password": "1234567890",
+        "repassword": "1234567890",
+        "id": 1
+      },
+      {
+        "name": "Ravi Rajput",
+        "Lastname": "Ravi",
+        "address": "Noida",
+        "landmark": "delhi",
+        "county": "India",
+        "state": "Uttarpardesh",
+        "townVillage": "delhi",
+        "pincode": "123456",
+        "AccountName": "Ravi",
+        "role": "Software Engineer",
+        "emailid": "ravi@gmail.com",
+        "mobileno": "123456789",
+        "password": "1234567890",
+        "repassword": "1234567890",
+        "id": 4
+      },
+      {
+        "name": "Ravi Rajput",
+        "Lastname": "Ravi",
+        "address": "Noida",
+        "landmark": "delhi",
+        "county": "India",
+        "state": "Uttarpardesh",
+        "townVillage": "delhi",
+        "pincode": "123456",
+        "AccountName": "Ravi",
+        "role": "Software Engineer",
+        "emailid": "ravi@gmail.com",
+        "mobileno": "123456789",
+        "password": "1234567890",
+        "repassword": "1234567890",
+        "id": 5
+      },
+      {
+        "name": "Ravi Rajput",
+        "Lastname": "Ravi",
+        "address": "Noida",
+        "landmark": "delhi",
+        "county": "India",
+        "state": "Uttarpardesh",
+        "townVillage": "delhi",
+        "pincode": "123456",
+        "AccountName": "Ravi",
+        "role": "Software Engineer",
+        "emailid": "ravi@gmail.com",
+        "mobileno": "123456789",
+        "password": "1234567890",
+        "repassword": "1234567890",
+        "id": 6
+      },
+      {
+        "name": "Ravi Rajput",
+        "Lastname": "Ravi",
+        "address": "Noida",
+        "landmark": "delhi",
+        "county": "India",
+        "state": "Uttarpardesh",
+        "townVillage": "delhi",
+        "pincode": "123456",
+        "AccountName": "Ravi",
+        "role": "Software Engineer",
+        "emailid": "ravi@gmail.com",
+        "mobileno": "123456789",
+        "password": "1234567890",
+        "repassword": "1234567890",
+        "id": 7
+      },
+      {
+        "name": "Ravi Rajput",
+        "Lastname": "Ravi",
+        "address": "Noida",
+        "landmark": "delhi",
+        "county": "India",
+        "state": "Uttarpardesh",
+        "townVillage": "delhi",
+        "pincode": "123456",
+        "AccountName": "Ravi",
+        "role": "Software Engineer",
+        "emailid": "ravi@gmail.com",
+        "mobileno": "123456789",
+        "password": "1234567890",
+        "repassword": "1234567890",
+        "id": 8
+      },
+      {
+        "name": "Ravi Rajput",
+        "Lastname": "Ravi",
+        "address": "Noida",
+        "landmark": "delhi",
+        "county": "India",
+        "state": "Uttarpardesh",
+        "townVillage": "delhi",
+        "pincode": "123456",
+        "AccountName": "Ravi",
+        "role": "Software Engineer",
+        "emailid": "ravi@gmail.com",
+        "mobileno": "123456789",
+        "password": "1234567890",
+        "repassword": "1234567890",
+        "id": 9
+      },
+      {
+        "name": "Ravi Rajput",
+        "Lastname": "Ravi",
+        "address": "Noida",
+        "landmark": "delhi",
+        "county": "India",
+        "state": "Uttarpardesh",
+        "townVillage": "delhi",
+        "pincode": "123456",
+        "AccountName": "Ravi",
+        "role": "Software Engineer",
+        "emailid": "ravi@gmail.com",
+        "mobileno": "123456789",
+        "password": "1234567890",
+        "repassword": "1234567890",
+        "id": 10
+      },
+      {
+        "name": "Ravi Rajput",
+        "Lastname": "Ravi",
+        "address": "Noida",
+        "landmark": "delhi",
+        "county": "India",
+        "state": "Uttarpardesh",
+        "townVillage": "delhi",
+        "pincode": "123456",
+        "AccountName": "Ravi",
+        "role": "Software Engineer",
+        "emailid": "ravi@gmail.com",
+        "mobileno": "123456789",
+        "password": "1234567890",
+        "repassword": "1234567890",
+        "id": 11
+      },
+      {
+        "name": "Ravi Rajput",
+        "Lastname": "Ravi",
+        "address": "Noida",
+        "landmark": "delhi",
+        "county": "India",
+        "state": "Uttarpardesh",
+        "townVillage": "delhi",
+        "pincode": "123456",
+        "AccountName": "Ravi",
+        "role": "Software Engineer",
+        "emailid": "ravi@gmail.com",
+        "mobileno": "123456789",
+        "password": "1234567890",
+        "repassword": "1234567890",
+        "id": 12
+      },
+      {
+        "name": "Ravi Rajput",
+        "Lastname": "Ravi",
+        "address": "Noida",
+        "landmark": "delhi",
+        "county": "India",
+        "state": "Uttarpardesh",
+        "townVillage": "delhi",
+        "pincode": "123456",
+        "AccountName": "Ravi",
+        "role": "Software Engineer",
+        "emailid": "ravi@gmail.com",
+        "mobileno": "123456789",
+        "password": "1234567890",
+        "repassword": "1234567890",
+        "id": 13
+      },
+      {
+        "name": "Ravi Rajput",
+        "Lastname": "Ravi",
+        "address": "Noida",
+        "landmark": "delhi",
+        "county": "India",
+        "state": "Uttarpardesh",
+        "townVillage": "delhi",
+        "pincode": "123456",
+        "AccountName": "Ravi",
+        "role": "Software Engineer",
+        "emailid": "ravi@gmail.com",
+        "mobileno": "123456789",
+        "password": "1234567890",
+        "repassword": "1234567890",
+        "id": 14
+      },
+      {
+        "users": [
+          {
+            "id": 1,
+            "name": "John Smith",
+            "email": "john.smith@example.com",
+            "age": 30,
+            "gender": "male",
+            "address": {
+              "street": "123 Main St",
+              "city": "Anytown",
+              "state": "CA",
+              "zip": "12345"
+            },
+            "company":"Pratian Technologies",
+            "Designation":"Super Admin"
+          },
+          {
+            "id": 2,
+            "name": "Jane Doe",
+            "email": "jane.doe@example.com",
+            "age": 25,
+            "gender": "female",
+            "address": {
+              "street": "456 Oak St",
+              "city": "Othertown",
+              "state": "NY",
+              "zip": "67890"
+            },
+            "company":"Pratian Technologies",
+            "Designation":"Super Admin"
+          },
+          {
+            "id": 3,
+            "name": "Bob Johnson",
+            "email": "bob.johnson@example.com",
+            "age": 45,
+            "gender": "male",
+            "address": {
+              "street": "789 Maple Ave",
+              "city": "Somewhere",
+              "state": "TX",
+              "zip": "54321"
+            },
+            "company":"Pratian Technologies",
+            "Designation":"Super Admin"
+          },
+          {
+            "id": 4,
+            "name": "Bobby Johnson",
+            "email": "bobby.johnson@example.com",
+            "age": 45,
+            "gender": "male",
+            "address": {
+              "street": "789 Maple Ave",
+              "city": "Somewhere",
+              "state": "TX",
+              "zip": "54321"
+            },
+            "company":"Pratian Technologies",
+            "Designation":"Super Admin"
+          },
+          {
+            "id": 5,
+            "name": "doe Johnson",
+            "email": "doe.johnson@example.com",
+            "age": 45,
+            "gender": "male",
+            "address": {
+              "street": "789 Maple Ave",
+              "city": "Somewhere",
+              "state": "TX",
+              "zip": "54321"
+            },
+            "company":"Pratian Technologies",
+            "Designation":"Super Admin"
+          }
+        ],
+    
+        "Clients":[
+            {
+                "id": 1,
+                "name": "Infosys",
+                "address": {
+                  "street": "123 Main St",
+                  "city": "Pune",
+                  "state": "Maharastra",
+                  "zip": "12345"
+                },
+                "Industry":"IT & Consultancy",
+                "status":"Active",
+                "jobposted":"20k"
+              },
+              {
+                "id": 2,
+                "name": "First meridian",
+                "address": {
+                  "street": "123 Main St",
+                  "city": "Bengaluru",
+                  "state": "Karnataka",
+                  "zip": "12345"
+                },
+                "Industry":"IT & Consultancy",
+                "status":"Active",
+                "jobposted":"22k"
+              },
+              {
+                "id": 3,
+                "name": "Capgemini",
+                "address": {
+                  "street": "123 Main St",
+                  "city": "Bengaluru",
+                  "state": "Karnataka",
+                  "zip": "12345"
+                },
+                "Industry":"IT & Consultancy",
+                "status":"Active",
+                "jobposted":"22k"
+              },
+              {
+                "id": 4,
+                "name": "Wipro",
+                "address": {
+                  "street": "123 Main St",
+                  "city": "Pune",
+                  "state": "Maharastra",
+                  "zip": "12345"
+                },
+                "Industry":"IT & Consultancy",
+                "status":"Active",
+                "jobposted":"1k"
+              },
+              {
+                "id": 5,
+                "name": "Pratian Technologies",
+                "address": {
+                  "street": "123 Main St",
+                  "city": "Bengaluru",
+                  "state": "Karnataka",
+                  "zip": "12345"
+                },
+                "Industry":"IT & Consultancy",
+                "status":"Active",
+                "jobposted":"2k"
+              }
+        ]
+        ,
+        "Skills":[
+          {
+            "name":"Data analysis",
+            "weight":5
+          },
+          {
+            "name":"public speaking",
+            "weight":10
+          },
+          {
+            "name":"Java programming",
+            "weight":15
+          },
+          {
+            "name":"Storytelling",
+            "weight":20
+          }, {
+            "name":"Web analytics",
+            "weight":25
+          }, {
+            "name":"Database management",
+            "weight":30
+          }, {
+            "name":"Discussion",
+            "weight":35
+          }, {
+            "name":"Web ",
+            "weight":40
+          }, {
+            "name":"Active Listening",
+            "weight":45
+          }, {
+            "name":"WordPress",
+            "weight":50
+          }, {
+            "name":"Java",
+            "weight":55
+          }, {
+            "name":"Presentation",
+            "weight":60
+          }, {
+            "name":"B2B Marketing",
+            "weight":65
+          }, {
+            "name":"Teamwork",
+            "weight":70
+          }, {
+            "name":"HTML & CSS",
+            "weight":75
+          }, {
+            "name":"Communication",
+            "weight":80
+          }, {
+            "name":"Networking",
+            "weight":85
+          }, {
+            "name":"Troubleshooting",
+            "weight":90
+          }, {
+            "name":"Equipment installation",
+            "weight":95
+          }, {
+            "name":"mobile marketing",
+            "weight":100
+          }, {
+            "name":"Copywriting",
+            "weight":5
+          }, {
+            "name":"Social media",
+            "weight":10
+          },
+          {
+            "name":"Negotatoin",
+            "weight":15
+          },
+          {
+            "name":"Empathy",
+            "weight":20
+          },
+          {
+            "name":"Openess",
+            "weight":25
+          }
+    
+        ],
+    
+        "AddUser": [
+          {
+            "name": "ravi",
+            "Lastname": "rajput",
+            "address": "delhi",
+            "landmark": "delhi",
+            "county": "india",
+            "state": "uttarpradesh",
+            "townVillage": "noida",
+            "pincode": "1234567",
+            "AccountName": "ravi",
+            "role": "developer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 1
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 4
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 5
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 6
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 7
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 8
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 9
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 10
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 11
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 12
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 13
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 14
+          }
+        ]
+      },
+    
+      {
+        "users": [
+          {
+            "id": 1,
+            "name": "John Smith",
+            "email": "john.smith@example.com",
+            "age": 30,
+            "gender": "male",
+            "address": {
+              "street": "123 Main St",
+              "city": "Anytown",
+              "state": "CA",
+              "zip": "12345"
+            },
+            "company":"Pratian Technologies",
+            "Designation":"Super Admin"
+          },
+          {
+            "id": 2,
+            "name": "Jane Doe",
+            "email": "jane.doe@example.com",
+            "age": 25,
+            "gender": "female",
+            "address": {
+              "street": "456 Oak St",
+              "city": "Othertown",
+              "state": "NY",
+              "zip": "67890"
+            },
+            "company":"Pratian Technologies",
+            "Designation":"Super Admin"
+          },
+          {
+            "id": 3,
+            "name": "Bob Johnson",
+            "email": "bob.johnson@example.com",
+            "age": 45,
+            "gender": "male",
+            "address": {
+              "street": "789 Maple Ave",
+              "city": "Somewhere",
+              "state": "TX",
+              "zip": "54321"
+            },
+            "company":"Pratian Technologies",
+            "Designation":"Super Admin"
+          },
+          {
+            "id": 4,
+            "name": "Bobby Johnson",
+            "email": "bobby.johnson@example.com",
+            "age": 45,
+            "gender": "male",
+            "address": {
+              "street": "789 Maple Ave",
+              "city": "Somewhere",
+              "state": "TX",
+              "zip": "54321"
+            },
+            "company":"Pratian Technologies",
+            "Designation":"Super Admin"
+          },
+          {
+            "id": 5,
+            "name": "doe Johnson",
+            "email": "doe.johnson@example.com",
+            "age": 45,
+            "gender": "male",
+            "address": {
+              "street": "789 Maple Ave",
+              "city": "Somewhere",
+              "state": "TX",
+              "zip": "54321"
+            },
+            "company":"Pratian Technologies",
+            "Designation":"Super Admin"
+          }
+        ],
+    
+        "Clients":[
+            {
+                "id": 1,
+                "name": "Infosys",
+                "address": {
+                  "street": "123 Main St",
+                  "city": "Pune",
+                  "state": "Maharastra",
+                  "zip": "12345"
+                },
+                "Industry":"IT & Consultancy",
+                "status":"Active",
+                "jobposted":"20k"
+              },
+              {
+                "id": 2,
+                "name": "First meridian",
+                "address": {
+                  "street": "123 Main St",
+                  "city": "Bengaluru",
+                  "state": "Karnataka",
+                  "zip": "12345"
+                },
+                "Industry":"IT & Consultancy",
+                "status":"Active",
+                "jobposted":"22k"
+              },
+              {
+                "id": 3,
+                "name": "Capgemini",
+                "address": {
+                  "street": "123 Main St",
+                  "city": "Bengaluru",
+                  "state": "Karnataka",
+                  "zip": "12345"
+                },
+                "Industry":"IT & Consultancy",
+                "status":"Active",
+                "jobposted":"22k"
+              },
+              {
+                "id": 4,
+                "name": "Wipro",
+                "address": {
+                  "street": "123 Main St",
+                  "city": "Pune",
+                  "state": "Maharastra",
+                  "zip": "12345"
+                },
+                "Industry":"IT & Consultancy",
+                "status":"Active",
+                "jobposted":"1k"
+              },
+              {
+                "id": 5,
+                "name": "Pratian Technologies",
+                "address": {
+                  "street": "123 Main St",
+                  "city": "Bengaluru",
+                  "state": "Karnataka",
+                  "zip": "12345"
+                },
+                "Industry":"IT & Consultancy",
+                "status":"Active",
+                "jobposted":"2k"
+              }
+        ]
+        ,
+        "Skills":[
+          {
+            "name":"Data analysis",
+            "weight":5
+          },
+          {
+            "name":"public speaking",
+            "weight":10
+          },
+          {
+            "name":"Java programming",
+            "weight":15
+          },
+          {
+            "name":"Storytelling",
+            "weight":20
+          }, {
+            "name":"Web analytics",
+            "weight":25
+          }, {
+            "name":"Database management",
+            "weight":30
+          }, {
+            "name":"Discussion",
+            "weight":35
+          }, {
+            "name":"Web ",
+            "weight":40
+          }, {
+            "name":"Active Listening",
+            "weight":45
+          }, {
+            "name":"WordPress",
+            "weight":50
+          }, {
+            "name":"Java",
+            "weight":55
+          }, {
+            "name":"Presentation",
+            "weight":60
+          }, {
+            "name":"B2B Marketing",
+            "weight":65
+          }, {
+            "name":"Teamwork",
+            "weight":70
+          }, {
+            "name":"HTML & CSS",
+            "weight":75
+          }, {
+            "name":"Communication",
+            "weight":80
+          }, {
+            "name":"Networking",
+            "weight":85
+          }, {
+            "name":"Troubleshooting",
+            "weight":90
+          }, {
+            "name":"Equipment installation",
+            "weight":95
+          }, {
+            "name":"mobile marketing",
+            "weight":100
+          }, {
+            "name":"Copywriting",
+            "weight":5
+          }, {
+            "name":"Social media",
+            "weight":10
+          },
+          {
+            "name":"Negotatoin",
+            "weight":15
+          },
+          {
+            "name":"Empathy",
+            "weight":20
+          },
+          {
+            "name":"Openess",
+            "weight":25
+          }
+    
+        ],
+    
+        "AddUser": [
+          {
+            "name": "ravi",
+            "Lastname": "rajput",
+            "address": "delhi",
+            "landmark": "delhi",
+            "county": "india",
+            "state": "uttarpradesh",
+            "townVillage": "noida",
+            "pincode": "1234567",
+            "AccountName": "ravi",
+            "role": "developer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 1
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 4
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 5
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 6
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 7
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 8
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 9
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 10
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 11
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 12
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 13
+          },
+          {
+            "name": "Ravi Rajput",
+            "Lastname": "Ravi",
+            "address": "Noida",
+            "landmark": "delhi",
+            "county": "India",
+            "state": "Uttarpardesh",
+            "townVillage": "delhi",
+            "pincode": "123456",
+            "AccountName": "Ravi",
+            "role": "Software Engineer",
+            "emailid": "ravi@gmail.com",
+            "mobileno": "123456789",
+            "password": "1234567890",
+            "repassword": "1234567890",
+            "id": 14
+          }
+        ]
+      }
+    
+    
+      
+      
+    ]
+  }
+
+
+  
+>>>>>>> 5a510cbeab772fba3c919a71b27324cdacf4a95f
